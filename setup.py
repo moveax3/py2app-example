@@ -9,7 +9,9 @@ from setuptools import setup
 
 APP = ['seleniumapp.py']
 DATA_FILES = ['chromedriver',]
-OPTIONS = {}
+OPTIONS = {
+	'packages': ['selenium',]
+}
 
 setup(
     app=APP,
