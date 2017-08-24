@@ -1,4 +1,4 @@
-# This is tkinter and selenium py2app OSX application example
+# This is selenium py2app OSX application with integrated chromedriver
 ## Requirements:
 * python3
 * python3-pip
