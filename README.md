@@ -1,20 +1,17 @@
 # This is selenium py2app OSX application with integrated chromedriver
 ## Requirements:
-* python3
 * python3-pip
 
 ## Build and run:
 ```bash
 cd path/to/repo
-make requirements
-make buildapp
+make fullbuild
 ```
 After this double click on resulted seleniumapp.app or type in terminal: open dist/seleniumapp.app
 
 This command install python3 requirements, create py2app setup.py and build python3 application to osx app.
 
 ## Notes:
-* if you build this from virtualenv, you need change PythonExecutable value to /Library/Frameworks/Python.framework/Versions/3.6/bin/python3 in dist/seleniumapp.app/Contents/Info.plist file.
 * if you regenerate setup.py file, you will need add "chromedriver" to DATA_FILES list manualy
 
 ## Other command:
